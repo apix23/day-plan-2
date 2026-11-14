@@ -80,6 +80,7 @@ Never work directly on `main`. Create a branch with your name:
 ```bash
 git checkout -b YOUR-NAME-solutions
 ```
+//git checkout -b adil-solutions
 
 Check which branch you are on at any moment with:
 
