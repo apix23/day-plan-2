@@ -23,11 +23,11 @@ const cafeName = "MigraCode Coffee";
 // Create `loudName` with the café name in UPPERCASE.
 // 💡 Hint: strings have a method called .toUpperCase()
 // -------------------------------------------------------------
-const loudName = null; // ✏️
+const loudName = cafeName.toUpperCase(); // ✏️
 
 console.assert(
   loudName === "MIGRACODE COFFEE",
-  `1.1 loudName should be "MIGRACODE COFFEE" but it is ${loudName}`
+  `1.1 loudName should be "MIGRACODE COFFEE" but it is ${loudName}`,
 );
 
 // -------------------------------------------------------------
@@ -35,11 +35,11 @@ console.assert(
 // It must be exactly: "Welcome to MigraCode Coffee!"
 // Use the `cafeName` variable inside a template literal (backticks ``).
 // -------------------------------------------------------------
-const welcomeMessage = null; // ✏️
+const welcomeMessage = "Welcome to " + cafeName + "!"; // ✏️
 
 console.assert(
   welcomeMessage === "Welcome to MigraCode Coffee!",
-  `1.2 welcomeMessage should be "Welcome to MigraCode Coffee!" but it is ${welcomeMessage}`
+  `1.2 welcomeMessage should be "Welcome to MigraCode Coffee!" but it is ${welcomeMessage}`,
 );
 
 // -------------------------------------------------------------
@@ -51,7 +51,7 @@ const nameLength = null; // ✏️
 
 console.assert(
   nameLength === 16,
-  `1.3 nameLength should be 16 but it is ${nameLength}`
+  `1.3 nameLength should be 16 but it is ${nameLength}`,
 );
 
 // -------------------------------------------------------------
@@ -64,7 +64,7 @@ const cleanOrder = null; // ✏️
 
 console.assert(
   cleanOrder === "latte",
-  `1.4 cleanOrder should be "latte" but it is "${cleanOrder}"`
+  `1.4 cleanOrder should be "latte" but it is "${cleanOrder}"`,
 );
 
 // -------------------------------------------------------------
@@ -78,7 +78,7 @@ const cupLetter = null; // ✏️
 
 console.assert(
   cupLetter === "A",
-  `1.5 cupLetter should be "A" but it is ${cupLetter}`
+  `1.5 cupLetter should be "A" but it is ${cupLetter}`,
 );
 
 // -------------------------------------------------------------
@@ -91,7 +91,9 @@ const hasTea = null; // ✏️
 
 console.assert(
   hasTea === true,
-  `1.6 hasTea should be true but it is ${hasTea}`
+  `1.6 hasTea should be true but it is ${hasTea}`,
 );
 
-console.log("✅ Finished running 01-strings.js — no 'Assertion failed' above means you solved it!");
+console.log(
+  "✅ Finished running 01-strings.js — no 'Assertion failed' above means you solved it!",
+);
