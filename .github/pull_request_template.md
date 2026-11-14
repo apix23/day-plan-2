@@ -2,21 +2,15 @@
 
 **Name:**
 
+**Exercise:** <!-- e.g. 01 Strings -->
+
 ## ✅ Checklist
 
-- [ ] I worked on my own branch (not `main`)
-- [ ] My files are inside `solutions/MY-NAME/`
-- [ ] I made one commit per exercise
-- [ ] I ran every file with `node` and there are no `Assertion failed` messages
-
-## 📚 Exercises completed
-
-- [ ] 01 Strings
-- [ ] 02 Numbers
-- [ ] 03 Functions
-- [ ] 04 if / else
-- [ ] 05 while loops
-- [ ] 06 Order machine (with my own `console.assert` tests)
+- [ ] My branch follows the pattern `your-name-exercise-name` (e.g. `amina-strings`)
+- [ ] I created my branch from `main`
+- [ ] This PR contains **only one** exercise
+- [ ] My file is inside `solutions/MY-NAME/`
+- [ ] I ran the file with `node` and there are no `Assertion failed` messages
 
 ## 🤔 What was difficult? Any questions for the reviewer?
 

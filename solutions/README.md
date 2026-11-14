@@ -1,10 +1,12 @@
 # Solutions
 
-Create a folder here with your name and copy the exercises into it:
+For each exercise, create a new branch from `main` and copy **only that exercise** into a folder with your name:
 
 ```bash
-mkdir solutions/YOUR-NAME
-cp exercises/*.js solutions/YOUR-NAME/
+git checkout main
+git checkout -b your-name-strings
+mkdir -p solutions/your-name
+cp exercises/01-strings.js solutions/your-name/
 ```
 
 Only change files inside **your own** folder. See the main [README](../README.md) for all the steps.
