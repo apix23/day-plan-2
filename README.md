@@ -103,6 +103,7 @@ Every new exercise starts from `main`:
 ```bash
 git checkout main
 ```
+//git checkout -b adil-solutions
 
 ### Step 2: Create a new branch for the exercise
 
