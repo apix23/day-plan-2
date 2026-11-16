@@ -23,7 +23,7 @@ const cafeName = "MigraCode Coffee";
 // Create `loudName` with the café name in UPPERCASE.
 // 💡 Hint: strings have a method called .toUpperCase()
 // -------------------------------------------------------------
-const loudName = null; // ✏️
+const loudName = cafeName.toUpperCase(); //
 
 console.assert(
   loudName === "MIGRACODE COFFEE",
@@ -35,7 +35,7 @@ console.assert(
 // It must be exactly: "Welcome to MigraCode Coffee!"
 // Use the `cafeName` variable inside a template literal (backticks ``).
 // -------------------------------------------------------------
-const welcomeMessage = null; // ✏️
+const welcomeMessage = `Welcome to ${cafeName}!`; // ✏️
 
 console.assert(
   welcomeMessage === "Welcome to MigraCode Coffee!",
@@ -47,7 +47,7 @@ console.assert(
 // Create `nameLength` with the number of characters in `cafeName`.
 // 💡 Hint: .length
 // -------------------------------------------------------------
-const nameLength = null; // ✏️
+const nameLength = cafeName.length; // ✏️
 
 console.assert(
   nameLength === 16,
@@ -60,7 +60,7 @@ console.assert(
 // 💡 Hint: .trim()
 // -------------------------------------------------------------
 const typedOrder = "     latte   ";
-const cleanOrder = null; // ✏️
+const cleanOrder = typedOrder.trim(); // ✏️
 
 console.assert(
   cleanOrder === "latte",
@@ -74,7 +74,7 @@ console.assert(
 // 💡 Hint: strings start counting at index 0 → customerName[0]
 // -------------------------------------------------------------
 const customerName = "Amina";
-const cupLetter = null; // ✏️
+const cupLetter = customerName[0]; // ✏️
 
 console.assert(
   cupLetter === "A",
@@ -88,6 +88,13 @@ console.assert(
 // -------------------------------------------------------------
 const menu = "espresso, latte, cappuccino, tea";
 const hasTea = null; // ✏️
+
+console.assert(
+  hasTea === true,
+  `1.6 hasTea should be true but it is ${hasTea}`
+);
+
+const hasTea = menu.includes("tea"); // ✏️
 
 console.assert(
   hasTea === true,
